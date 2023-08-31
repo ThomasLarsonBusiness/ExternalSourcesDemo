@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\tjl7357\ExternalSourcesDemo\ExternalSourcesDemo_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\tjl7357\ExternalSourcesDemo\ExternalSourcesDemo_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\tjl7357\ExternalSourcesDemo\ExternalSourcesDemo_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile>C:\Users\tjl7357\ExternalSourcesDemo\ExternalSourcesDemo_WwiseProject\myExternalSources\ExtSourcesList.wsources</ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\tjl7357\ExternalSourcesDemo\ExternalSourcesDemo_WwiseProject\GeneratedSoundBanks\Mac\ExternalSources</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1166244064">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="2415836739" Name="Volume" ObjectPath="\States\Default Work Unit\Volume" GUID="{F2EEE737-74FB-4332-91DD-A72F96B21DF9}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Volume\None" GUID="{DDBE9357-A31C-49B9-8FC5-19D82270A90D}"/>
+						<State Id="321898433" Name="Loud" ObjectPath="\States\Default Work Unit\Volume\Loud" GUID="{60261FBC-4525-48C2-9BB0-FCCA50DA9E09}"/>
+						<State Id="1565680351" Name="Quiet" ObjectPath="\States\Default Work Unit\Volume\Quiet" GUID="{F82BBA76-BB7E-4E8B-9B2E-43D22DF80B68}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1465331116" Language="SFX" Hash="4022277468">
+			<ObjectPath>\SoundBanks\Default Work Unit\Global</ObjectPath>
+			<ShortName>Global</ShortName>
+			<Path>Global.bnk</Path>
+			<IncludedEvents>
+				<Event Id="735724899" Name="ExtSourceTestEvent" ObjectPath="\Events\TestEvents\ExtSourceTestEvent" DurationType="Unknown"/>
+				<Event Id="3996574645" Name="IntSourceTestEvent" ObjectPath="\Events\TestEvents\IntSourceTestEvent" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3341137194" Name="MusicEvent" ObjectPath="\Events\TestEvents\MusicEvent" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="967545305" Language="SFX">
+							<ShortName>GamplayREMIX_145bpm4-4_L81M-P0.wav</ShortName>
+							<Path>SFX\GamplayREMIX_145bpm4-4_L81M-P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3304435250" Name="StopMusicEvent" ObjectPath="\Events\TestEvents\StopMusicEvent" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="967545305" Language="SFX">
+					<ShortName>GamplayREMIX_145bpm4-4_L81M-P0.wav</ShortName>
+					<Path>SFX\GamplayREMIX_145bpm4-4_L81M-P0_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<ExternalSources>
+				<Source Id="618371124" Name="External_Source" ObjectPath="\Actor-Mixer Hierarchy\ExternalSources\Dialog_ExtSource\External_Source"/>
+			</ExternalSources>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

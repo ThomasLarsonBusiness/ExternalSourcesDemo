@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39D17153-5BBC-4CC6-B4BC-1021B21BF892}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{39D17153-5BBC-4CC6-B4BC-1021B21BF892}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Dialog_InSource" ID="{941F0E72-9141-4EB4-ADE4-0C4BDC33C8C8}" ShortID="846341881">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3D1F5E0-C094-4440-AFA0-C9B608C67844}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AFB2511-BD35-47AA-A3DF-DE56D162C769}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="01" ID="{2BA2652E-8BB3-4957-B808-8E8E596AF7F9}">
+							<Language>SFX</Language>
+							<AudioFile>01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="895603601"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="01" ID="{2BA2652E-8BB3-4957-B808-8E8E596AF7F9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

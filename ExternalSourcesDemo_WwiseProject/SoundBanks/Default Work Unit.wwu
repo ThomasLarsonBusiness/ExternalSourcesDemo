@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06B91C38-F15C-4C6E-94D9-E0DE61C7B570}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{06B91C38-F15C-4C6E-94D9-E0DE61C7B570}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Global" ID="{E7708D10-0A5F-4576-803B-C00A8ED559EE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BackgroundMusicContainer" ID="{EC2214A1-AA8C-40CE-979F-AE5A86F7E97A}" WorkUnitID="{C17752AD-F0F4-4BB1-A550-E1702ECD6554}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ExtSourceTestEvent" ID="{C75E082F-3372-41B9-9373-9AB4801D5B7B}" WorkUnitID="{D3E39144-9553-4F44-B1DD-2C6C611A3DF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopMusicEvent" ID="{55F49E08-F5E1-43C8-859D-0DC7E34FD22E}" WorkUnitID="{D3E39144-9553-4F44-B1DD-2C6C611A3DF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MusicEvent" ID="{E82D2628-CD82-4421-AA72-6E806AF0A8E3}" WorkUnitID="{D3E39144-9553-4F44-B1DD-2C6C611A3DF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IntSourceTestEvent" ID="{51D01455-8AB2-49CF-AAEB-F66255A48769}" WorkUnitID="{D3E39144-9553-4F44-B1DD-2C6C611A3DF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialog_ExtSource" ID="{FA09E8BC-4283-4DB8-B175-FE4DA5012096}" WorkUnitID="{A61F078F-A0D7-4ED6-8FD0-217A92577627}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialog_InSource" ID="{941F0E72-9141-4EB4-ADE4-0C4BDC33C8C8}" WorkUnitID="{39D17153-5BBC-4CC6-B4BC-1021B21BF892}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

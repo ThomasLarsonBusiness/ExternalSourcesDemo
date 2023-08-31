@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	735724899	ExtSourceTestEvent			\TestEvents\ExtSourceTestEvent	
+	3304435250	StopMusicEvent			\TestEvents\StopMusicEvent	
+	3341137194	MusicEvent			\TestEvents\MusicEvent	
+	3996574645	IntSourceTestEvent			\TestEvents\IntSourceTestEvent	
+
+External Source	ID	Name			Wwise Object Path	Notes
+	618371124	External_Source			\ExternalSources\Dialog_ExtSource\External_Source	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	967545305	GamplayREMIX_145bpm4-4_L81M-P0	C:\Users\tjl7357\ExternalSourcesDemo\ExternalSourcesDemo_WwiseProject\.cache\Mac\SFX\GamplayREMIX_145bpm4-4_L81M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusicContainer\BackgroundMusic\GamplayREMIX_145bpm4-4_L81M-P0		23941804
+

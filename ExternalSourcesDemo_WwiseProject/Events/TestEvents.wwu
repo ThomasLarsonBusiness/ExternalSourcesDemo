@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D3E39144-9553-4F44-B1DD-2C6C611A3DF2}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="TestEvents" ID="{D3E39144-9553-4F44-B1DD-2C6C611A3DF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ExtSourceTestEvent" ID="{C75E082F-3372-41B9-9373-9AB4801D5B7B}">
+					<ChildrenList>
+						<Action Name="" ID="{8F4E2252-02D1-4C58-8105-B06F83AAAF46}" ShortID="898466075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialog_ExtSource" ID="{FA09E8BC-4283-4DB8-B175-FE4DA5012096}" WorkUnitID="{A61F078F-A0D7-4ED6-8FD0-217A92577627}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="IntSourceTestEvent" ID="{51D01455-8AB2-49CF-AAEB-F66255A48769}">
+					<ChildrenList>
+						<Action Name="" ID="{33C73807-DCEE-4B52-92ED-38720BD0BA97}" ShortID="897370685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialog_InSource" ID="{941F0E72-9141-4EB4-ADE4-0C4BDC33C8C8}" WorkUnitID="{39D17153-5BBC-4CC6-B4BC-1021B21BF892}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicEvent" ID="{E82D2628-CD82-4421-AA72-6E806AF0A8E3}">
+					<ChildrenList>
+						<Action Name="" ID="{E1832303-36E0-42C7-93B4-807AED597B50}" ShortID="974366462">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BackgroundMusicContainer" ID="{EC2214A1-AA8C-40CE-979F-AE5A86F7E97A}" WorkUnitID="{C17752AD-F0F4-4BB1-A550-E1702ECD6554}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopMusicEvent" ID="{55F49E08-F5E1-43C8-859D-0DC7E34FD22E}">
+					<ChildrenList>
+						<Action Name="" ID="{914F4521-AB8F-4770-B201-C8FB168E7D42}" ShortID="28704123">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BackgroundMusicContainer" ID="{EC2214A1-AA8C-40CE-979F-AE5A86F7E97A}" WorkUnitID="{C17752AD-F0F4-4BB1-A550-E1702ECD6554}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

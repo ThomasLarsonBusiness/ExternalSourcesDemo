@@ -1,0 +1,20 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2415836739	Volume			\Default Work Unit\Volume	
+
+State	ID	Name	State Group			Notes
+	321898433	Loud	Volume			
+	748895195	None	Volume			
+	1565680351	Quiet	Volume			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	537450677	Loud	Volume	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MusicBus		
+	1020852124	Quiet	Volume	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MusicBus		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2886307548	MusicBus			\Default Work Unit\Master Audio Bus\MusicBus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

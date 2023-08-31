@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7AFB2511-BD35-47AA-A3DF-DE56D162C769}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{7AFB2511-BD35-47AA-A3DF-DE56D162C769}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{507DCE23-1663-4A00-9A33-ACAF68F92A50}" WorkUnitID="{184ED492-379D-4B92-BE62-B36B1DA19DB1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MusicBus" ID="{EC93E8DC-9754-4107-91AF-BD5FCD524E1C}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Volume" ID="{F2EEE737-74FB-4332-91DD-A72F96B21DF9}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Loud" ID="{60261FBC-4525-48C2-9BB0-FCCA50DA9E09}"/>
+										<CustomState Name="" ID="{A0F83C25-922B-4689-8002-B7FF30E54B03}" ShortID="537450677">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="5"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{F82BBA76-BB7E-4E8B-9B2E-43D22DF80B68}"/>
+										<CustomState Name="" ID="{76B43011-C040-4F50-AEA9-C7AE3FD096FE}" ShortID="1020852124">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-20"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

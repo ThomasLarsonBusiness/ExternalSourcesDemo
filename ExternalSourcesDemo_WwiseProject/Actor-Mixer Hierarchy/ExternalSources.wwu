@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A61F078F-A0D7-4ED6-8FD0-217A92577627}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="ExternalSources" ID="{A61F078F-A0D7-4ED6-8FD0-217A92577627}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Dialog_ExtSource" ID="{FA09E8BC-4283-4DB8-B175-FE4DA5012096}" ShortID="907513133">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="ExternalStandard" ID="{706B93A9-69A1-4603-8479-A4C30CDD156B}" WorkUnitID="{18A821DE-524E-409E-844D-504A851ADA4C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7AFB2511-BD35-47AA-A3DF-DE56D162C769}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ExternalSource Name="External_Source" ID="{4593B25C-EAD5-4227-AEE3-B8CE1FD71930}">
+							<Language>SFX</Language>
+						</ExternalSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="External_Source" ID="{4593B25C-EAD5-4227-AEE3-B8CE1FD71930}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
